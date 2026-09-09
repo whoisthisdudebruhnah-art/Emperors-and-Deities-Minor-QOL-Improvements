@@ -4266,6 +4266,31 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "Early Combat Drone",
+		"unitType": "Close Combat"
+		"cost": 300,
+		"movement": 3,
+		"strength": 65,
+		"uniques": [
+			"Unbuildable <in cities without a [Military Base]>",
+			"Costs [3] [Weapon Parts]",
+			"Costs [1] [Electronic Parts]",
+			"'Standing Army'",
+			"'Skirmishers'",
+			"'Firearms'",
+			"Can pass through impassable tiles",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"The Standing Army",
+			"Skirmisher Training"
+		],
+		"requiredTech": "Remote Control",
+		"upgradesTo": "Combat Drone",
+		"requiredResource": "Standing Army Maintenance",
+		"attackSound": "machinegun"
+	},
+	{	
 		"name": "Spec Ops",
 		"unitType": "Ranged Combat",
 		"cost": 600,
