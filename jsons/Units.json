@@ -4279,6 +4279,7 @@
 			"'Skirmishers'",
 			"'Firearms'",
 			"Can pass through impassable tiles",
+			"Can move after attacking",
 			"No defensive terrain bonus"
 		],
 		"promotions": [
@@ -4286,7 +4287,7 @@
 			"Skirmisher Training"
 		],
 		"requiredTech": "Remote Control",
-		"upgradesTo": "Combat Drone",
+		"upgradesTo": "Advanced Combat Drone",
 		"requiredResource": "Standing Army Maintenance",
 		"attackSound": "machinegun"
 	},
@@ -4819,6 +4820,33 @@
 		"requiredResource": "Standing Army Maintenance",
 		"attackSound": "shot"
 	},
+	{
+		"name": "Advanced Combat Drone",
+		"unitType": "Close Combat",
+		"cost": 750,
+		"movement": 4,
+		"strength": 80,
+		"uniques": [
+			"Unbuildable <in cities without a [Military Base]>",
+			"Costs [5] [Graphene]",
+			"Costs [3] [Weapon Parts]",
+			"Costs [1] [Microchips]",
+			"[-50]% maintenance costs",
+			"'Standing Army'",
+			"'Firearms'",
+			"Can move after attacking",
+			"Can pass through impassable tiles",
+			"No defensive terrain bonus"
+		],
+		"promotions": [
+			"The Standing Army",
+			"Skirmishers"
+		],
+		"requiredTech": "Graphene",
+		"requiredResource": "Standing Army Maintenance",
+		"attackSound": "machinegun"
+			
+			
 	///Line 29
 	{
 		"name": "Assault Mecha",
